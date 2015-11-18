@@ -17,4 +17,5 @@ group :integration do
   gem 'berkshelf', '~> 3.1.5'
   gem 'test-kitchen', '~> 1.2.1'
   gem 'kitchen-vagrant', '~> 0.15.0'
+  gem 'kitchen-ec2'
 end
