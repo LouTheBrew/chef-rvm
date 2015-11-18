@@ -18,7 +18,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
+default['rvm']['gpg']['keyserver'] = "hkp://keys.gnupg.net"
 # ruby that will get installed and set to `rvm use default`.
 default['rvm']['default_ruby']      = "ruby-1.9.3-p547"
 default['rvm']['user_default_ruby'] = "ruby-1.9.3-p547"
